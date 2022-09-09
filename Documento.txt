@@ -1,0 +1,28 @@
+public class Documento {
+    String titulo;
+    String url;
+    Tema tema;
+    Index index;
+    Registro registro;
+
+    public Documento (){
+
+    }
+
+    public Documento (String titulo, String url){
+        this.titulo = titulo;
+        this.url = url;
+    }
+
+    public String generarTamanio (){
+        return titulo;
+    }
+
+    public int cantidadPalabrasDif(){
+        return 1;
+    }
+
+    public int frecuenciaPalabrasRepe(){
+        return 1;
+    }
+}

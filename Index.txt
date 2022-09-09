@@ -1,0 +1,16 @@
+public class Index {
+    boolean hash;
+    Integer tamanio;
+    Date fecha
+    Documento documento;
+
+    public Index (){
+        
+    }
+
+    public Index (Integer tamanio, Date fecha){
+        this.tamanio = tamanio;
+        this.hash = false;
+        this.fecha = fecha
+    }
+}
